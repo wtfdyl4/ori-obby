@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ori&Obby | Oversized Wear</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+<div class="logo">ORI&OBBY</div>
+<ul class="nav-links">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#acerca">Acerca</a></li>
+<li><a href="#franelas">Franelas</a></li>
+<li><a href="#envios">Envíos</a></li>
+<li><a href="#contacto">Contacto</a></li>
+<li><a href="#jefe">Jefe</a></li>
+<li><button id="openRegister">Registro</button></li>
+</ul>
+</nav>
+</header>
+
+<section id="inicio" class="hero">
+<div>
+<h1>ESTILO CALLEJERO</h1>
+<p>Oversize que rompe reglas</p>
+<a href="#franelas" class="btn">Comprar</a>
+</div>
+</section>
+
+<section id="acerca">
+<h1>Acerca de</h1>
+<h2>Ori&Obby nace de la cultura urbana. Ropa oversized diseñada para destacar sin esfuerzo, pesar con mucho geto donde sea que vayas .</h2>
+</section>
+
+<section id="franelas">
+<h2>Franelas</h2>
+<div class="cards">
+<div class="card">
+  <div class="img-container">
+    <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1000&auto=format&fit=crop" alt="Oversize Negra">
+  </div>
+  <p>Oversize Negra</p>
+  <span class="price">$20.00</span>
+</div>
+<div class="card">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f">
+<p>Oversize Blanca</p>
+<span class="price">$15.00</span>
+<span
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d">
+<p>Oversize Street</p>
+<span class="price">$25.00</span>
+</div>
+</div>
+</section>
+
+<section id="envios">
+<h1>Envíos</h1>
+<h2>Realizamos envíos a todo el país. Entregas de 2 a 5 días hábiles. Nuestra maraca Ori&Obby llega donde sea vas .</h2>
+</section>
+
+<section id="jefe">
+    <h2>Jefe</h2>
+
+    <div class="jefe-card">
+        <img src="Img/image0.jpeg" alt="Dylan Bastidas">
+        
+        <h1>Dylan Bastidas</h1>
+        <h1>19 años</h1>
+        <h1>Bailarín & Diseñador de ropa oversize</h1>
+    </div>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<form>
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo">
+<textarea placeholder="Mensaje"></textarea>
+<button>Enviar</button>
+</form>
+</section>
+
+<!-- MODAL -->
+<div id="registerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Registro</h2>
+
+    <form id="registerForm">
+      <input type="text" placeholder="Usuario" required>
+      <input type="password" placeholder="Contraseña" required>
+      <input type="text" placeholder="Cédula" required>
+      <input type="number" placeholder="Edad" required>
+
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+</div>
+
+<script src="pagina1.js" defer></script>
+</body>
+</html>
